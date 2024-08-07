@@ -26,6 +26,9 @@
 .lista-menu {
     display: none;
     position: absolute;
+    top: 100%;
+    width: 60vw;
+    border-radius: 0 0 20px 20px;
 }
 
 .container_botao:checked.lista-menu {
