@@ -54,6 +54,7 @@
     <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     <input type="search" class="banner__pesquisa" placeholder="Qual sera sua proxima leitura?"
   </section>
+
   <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
   </section>
@@ -81,6 +82,13 @@
   <div class="swiper-scrollbar"></div>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+      });
+    </script>
   
 </body>
 </html
