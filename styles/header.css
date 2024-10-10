@@ -2,7 +2,7 @@
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url("img/Menu.svg");
+    background-image: url("../img/Menu.png");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -29,8 +29,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;  
-    border-radius: 0 0 20px 20px;
-    background-color: var(--branco);
+    
   
   }
   
@@ -41,10 +40,12 @@
   .lista-menu__titulo,
   .lista-menu__item {
     padding: 1em;
+    background-color: var(--branco);
   }
   
   .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
   }
   
   .lista-menu__link {
