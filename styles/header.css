@@ -59,3 +59,7 @@
   .container_botao {
     display: nome;
   }
+
+  @media screen and (min-width: 1024px){}
+    
+  
