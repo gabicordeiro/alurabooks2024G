@@ -88,4 +88,7 @@
     text-decoration: none;
     color: var(--preto);
    }
+   .container__imagem_transparente {
+    display: none;
+   }
 } 
