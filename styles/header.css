@@ -91,4 +91,8 @@
    .container__imagem_transparente {
     display: none;
    }
+
+   .cabeçalho__menu-hamburguer {
+    display: none;
+   }
 } 
