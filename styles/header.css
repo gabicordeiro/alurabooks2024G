@@ -95,4 +95,13 @@
    .cabeçalho__menu-hamburguer {
     display: none;
    }
+
+   .opçoẽs_botão:checked~.lista-menu{
+    display: block;
+    width: auto;
+   }
+
+   .opçoẽs__botão {
+    display: none;
+   }
 } 
