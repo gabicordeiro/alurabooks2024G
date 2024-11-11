@@ -30,7 +30,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url("/img/Lupa.png") no-repeat;
+    background: url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
 }
 
@@ -39,7 +39,7 @@
         font-size: 36px;
     }
 
-    .banner__pesquisa{
+    .banner__pesquisa {
         width: 50%;
     }
 
@@ -48,3 +48,20 @@
     }
 }
 
+
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 12em;
+    }
+
+
+}
